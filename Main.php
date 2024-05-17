@@ -8,7 +8,7 @@ require_once 'TomatoBush.php';
 $plant = new TomatoBush(3);
 $gardener = new Gardener("Саша", $plant);
 
-$gardener->KnowledgeBase();
+$gardener->knowledgeBase();
 
 $gardener->harvest();
 
